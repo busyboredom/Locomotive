@@ -2,17 +2,17 @@
 
 #include <iostream>
 
-namespace Locomotive {
+namespace Locomotive{
   
   Application::Application(){
   }
 
-  Application::~Application() {
+  Application::~Application(){
   }
 
-  void Application::Run() { 
+  void Application::Run(){ 
     std::cout<< "Hello World\n";
-    while(true) {
+    while(true){
     }
   }
 }

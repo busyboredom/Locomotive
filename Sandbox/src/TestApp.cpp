@@ -1,15 +1,15 @@
 #include <Locomotive.h>
 
-class Sandbox : public Locomotive::Application {
+class Sandbox : public Locomotive::Application{
   public:
-    Sandbox() {
+    Sandbox(){
     }
 
-    ~Sandbox() {
+    ~Sandbox(){
     }
 };
 
-int main() {
+int main(){
   Sandbox* sandbox = new Sandbox();
 
   sandbox->Run();

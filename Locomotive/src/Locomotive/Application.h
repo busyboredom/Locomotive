@@ -2,9 +2,9 @@
 
 #include "Core.h"
 
-namespace Locomotive {
+namespace Locomotive{
 
-class LOCOMOTIVE_API Application {
+class LOCOMOTIVE_API Application{
     public:
       Application();
       virtual ~Application();
