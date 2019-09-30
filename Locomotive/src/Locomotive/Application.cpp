@@ -10,8 +10,7 @@ namespace Locomotive{
   Application::~Application(){
   }
 
-  void Application::Run(){ 
-    std::cout<< "Hello World\n";
+  void Application::Run(){
     while(true){
     }
   }

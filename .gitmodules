@@ -1,0 +1,3 @@
+[submodule "Locomotive/vendor/spdlog"]
+	path = Locomotive/vendor/spdlog
+	url = https://github.com/gabime/spdlog

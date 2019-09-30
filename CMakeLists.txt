@@ -9,6 +9,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 enable_testing()
 
 include_directories(Locomotive/src)
+include_directories(Locomotive/vendor/spdlog/include)
 
 add_subdirectory(Locomotive)
 add_subdirectory(Sandbox)

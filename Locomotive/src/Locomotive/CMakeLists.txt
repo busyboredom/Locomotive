@@ -8,3 +8,6 @@
 file(GLOB SOURCES "*.cpp")
 
 add_library(Locomotive SHARED ${SOURCES})
+
+link_directories(PROJECT_SOURCE_DIR/Locomotive/vendor/spdlog)
+target_link_libraries(Locomotive PRIVATE spdlog::spdlog)
