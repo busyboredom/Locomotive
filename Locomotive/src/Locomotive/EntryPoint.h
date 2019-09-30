@@ -1,12 +1,9 @@
 #pragma once
 
-#if defined(_MSC_VER)
+extern Locomotive::Application* Locomotive::CreateApplication();
 
 int main(int argc, char** argv){
-  
-
-#elif defined(__GNUC__)
-
-#else
-  #pragma warning Unsupported Platform
-#endif
+  auto app = Locomotive::CreateApplication();
+  app->Run();
+  delete app;
+}
