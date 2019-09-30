@@ -4,8 +4,7 @@
 
 namespace Locomotive {
 
-// class LOCOMOTIVE_API Application {
-class __attribute__((visibility ("default"))) Application {
+class LOCOMOTIVE_API Application {
     public:
       Application();
       virtual ~Application();
